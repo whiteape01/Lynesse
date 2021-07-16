@@ -1,5 +1,5 @@
 numpy
 pandas
 matplotlib
-pyqt
+pyqt5
 torch
