@@ -26,6 +26,7 @@ jobs:
       - name: Analyse the Project
         working-directory: ./faultybot
         run: |
+          wget  https://raw.githubusercontent.com/Zeyecx/Lynesse/main/.pylintrc -o .pylintrc
           pylint --rcfile="./.pylintrc" `ls -R|grep .py$|xargs`
 
       - name: Clean
