@@ -6,3 +6,6 @@ disable=
     R1723, # no-else-break
     W0105, # pointless string
     R1732, # with Statement
+    C0115, # class str
+    W0611, # unused
+    R0903, # to few
