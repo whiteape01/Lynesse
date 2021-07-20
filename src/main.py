@@ -4,8 +4,9 @@ import core as c
 
 def main():
     """ Main Programm """
+    print(c.TEST)
     g.run()
-    print(c.test)
+
 
 
 # Run main Programm
