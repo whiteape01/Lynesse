@@ -1,5 +1,12 @@
+# Backend
 numpy
 pandas
 matplotlib
-pyqt5
 torch
+
+# Frontend
+pyqt5
+pyside6
+
+# Chess
+lichesspy

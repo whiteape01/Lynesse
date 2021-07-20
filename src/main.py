@@ -1,1 +1,2 @@
-print("Lynesse is knorke")
+from backend import *
+from frontend import *
