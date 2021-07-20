@@ -1,1 +1,1 @@
-print("Hallo Welt")
+print("Lynesse is knorke")
