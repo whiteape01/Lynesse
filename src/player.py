@@ -1,4 +1,5 @@
 # Player Class
+import sys
 
 class Player:
     # Konstruktor
@@ -83,21 +84,45 @@ class Player:
         self.byear = byear
 
     def set_rank(self, rank: int) -> None:
+        """
+         Enter the rank.
+         Player.set_rank("1000000")
+        """        
         self.rank = rank
 
     def set_blitz(self, blitz: int) -> None:
+        """
+         Enter the blitz elo.
+         Player.set_blitz("2001")
+        """
         self.blitz = blitz
 
     def set_rapid(self, rapid: int) -> None:
+        """
+         Enter the rapid elo.
+         Player.set_rapid("2000")
+        """        
         self.rapid = rapid
 
     def set_dwz(self, dwz: int) -> None:
+        """
+         Enter the DWZ.
+         Player.set_dwz("2001")
+        """
         self.dwz = dwz
 
     def set_status(self, status: chr) -> None:
+        """
+         Enter the player status.
+         Player.set_byear("A")
+        """
         self.status = status
 
     def set_zps(self, zps: chr) -> None:
+        """
+         Enter the ZPS.
+         Player.set_byear("B0023-1317")
+        """
         self.zps = zps
 
     # Getter
