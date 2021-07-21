@@ -1,6 +1,6 @@
 # Player Class
 
-class player:
+class Player:
     # Konstruktor
     def __init__(self):
         # Player info
@@ -12,7 +12,7 @@ class player:
 
         # FIDE rating
         self.elo = None
-        self.fide_id = None
+        self.fideid = None
         self.country = "GER"
         self.title = None
         self.byear = None
@@ -41,9 +41,6 @@ class player:
 
     def set_sex(self, sex) -> None:
         self.sex = sex
-
-    def set_sex(self, elo) -> None:
-        self.sex = elo
 
     def set_elo(self, fideid) -> None:
         self.fideid = fideid
