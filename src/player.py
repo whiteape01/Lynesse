@@ -8,7 +8,7 @@ class Player:
     # Konstruktor
     def __init__(self):
         """
-        Creates a new chess player
+        Creates a new chess player.
         """
         # Player info
         self.first = None
