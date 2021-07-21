@@ -21,58 +21,83 @@ class Player:
         self.rapid = None
 
         # DSB rating
-        self.dsb_id = None
         self.dwz = None
         self.status = None
         self.zps = None
 
     # Setter
     def set_first(self,  first: str) -> None:
+        """
+        Enter the first name. \n
+        Player.set_first("Max")
+        """
         self.first = first
 
-    def set_surname(self, surname) -> None:
+    def set_surname(self, surname: str) -> None:
+        """
+        Enter the last name.
+        Player.set_surname("Müller")
+        """
         self.surname = surname
 
-    def set_country(self, country) -> None:
+    def set_country(self, country: str) -> None:
+        """
+        Input of the country.
+        Player.set_country("GER")
+        """
         self.country = country
 
-    def set_club(self, club) -> None:
+    def set_club(self, club: str) -> None:
+        """
+        Input of the club name.
+        Player.set_club("CLUB_NAME")
+        """
         self.club = club
 
-    def set_sex(self, sex) -> None:
+    def set_sex(self, sex: chr) -> None:
+        """
+         Input of the gender.
+         Player.set_sex("m")
+        """
         self.sex = sex
 
-    def set_elo(self, fideid) -> None:
+    def set_elo(self, fideid: str) -> None:
+        """
+         Input of the Fide ID.
+         Player.set_fideid("16201914")
+        """
         self.fideid = fideid
 
-    def set_country(self, country) -> None:
-        self.country = country
-
-    def set_title(self, title) -> None:
+    def set_title(self, title: str) -> None:
+        """
+         Input of the Fide Title.
+         Player.set_title("GM")
+        """
         self.title = title
 
-    def set_byear(self, byear) -> None:
+    def set_byear(self, byear: int) -> None:
+        """
+         Enter the year of birth.
+         Player.set_byear("2001")
+        """
         self.byear = byear
 
-    def set_rank(self, rank) -> None:
+    def set_rank(self, rank: int) -> None:
         self.rank = rank
 
-    def set_blitz(self, blitz) -> None:
+    def set_blitz(self, blitz: int) -> None:
         self.blitz = blitz
 
-    def set_rapid(self, rapid) -> None:
+    def set_rapid(self, rapid: int) -> None:
         self.rapid = rapid
 
-    def set_dsbid(self, dsb_id) -> None:
-        self.dsbid = dsb_id
-
-    def set_dwz(self, dwz) -> None:
+    def set_dwz(self, dwz: int) -> None:
         self.dwz = dwz
 
-    def set_status(self, status) -> None:
+    def set_status(self, status: chr) -> None:
         self.status = status
 
-    def set_zps(self, zps) -> None:
+    def set_zps(self, zps: chr) -> None:
         self.zps = zps
 
     # Getter
@@ -94,8 +119,8 @@ class Player:
     def get_elo(self) -> int:
         return self.elo
 
-    def get_fide_id(self) -> str:
-        return self.fide_id
+    def get_fideid(self) -> str:
+        return self.fideid
 
     def get_country(self) -> int:
         return self.country
@@ -114,9 +139,6 @@ class Player:
 
     def get_rapid(self) -> int:
         return self.rapid
-
-    def get_dsbid(self) -> str:
-        return self.dsbid
 
     def get_dwz(self) -> int:
         return self.dwz
