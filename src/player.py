@@ -1,9 +1,15 @@
 # Player Class
-import sys
+
 
 class Player:
+    """
+    Python Class for chess players. 
+    """
     # Konstruktor
     def __init__(self):
+        """
+        Creates a new chess player
+        """
         # Player info
         self.first = None
         self.surname = None
