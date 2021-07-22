@@ -6,6 +6,7 @@ class Player:
     Python Class for chess players. 
     """
     # Konstruktor
+
     def __init__(self):
         """
         Creates a new chess player.
@@ -93,7 +94,7 @@ class Player:
         """
          Enter the rank.
          Player.set_rank("1000000")
-        """        
+        """
         self.rank = rank
 
     def set_blitz(self, blitz: int) -> None:
@@ -107,7 +108,7 @@ class Player:
         """
          Enter the rapid elo.
          Player.set_rapid("2000")
-        """        
+        """
         self.rapid = rapid
 
     def set_dwz(self, dwz: int) -> None:
