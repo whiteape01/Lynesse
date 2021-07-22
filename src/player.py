@@ -16,7 +16,7 @@ class Player:
         self.surname = None
         self.country = None
         self.club = None
-        self.sex = "Every Day"
+        self.sex = None
 
         # FIDE rating
         self.elo = None
