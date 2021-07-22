@@ -10,3 +10,7 @@ pyside6
 
 # Chess
 lichesspy
+
+# Math Package
+scipy
+sympy
